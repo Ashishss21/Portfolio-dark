@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.back .row{
+    position: relative;
+    top: -50%;
+    left: 20%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 64px;
+    transform:  rotate(-30deg);
+}
+i{
+    color: rgba(0,0,0,0.5);
+    transition: 0.2s;
+    padding: 0 5px;
+    user-select: none;
+    cursor: default;
+}
+i:hover{
+    color: #fff;
+    text-shadow: 0 0 120px #fff;
+}
+.back .row div{
+    animation: animate 80s linear infinite;
+    animation-delay: -80s;
+}
+.back .row div:nth-child(2){
+    animation: animate1 80s linear infinite;
+    animation-delay: -40s;
+}

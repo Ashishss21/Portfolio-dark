@@ -5,7 +5,7 @@
 #hero {
     width: 100%;
     height: 100vh;
-    background: #111111;
+    background: url(../Assests/image3.png);
     background-size: cover;
     position: absolute;
   }
@@ -31,11 +31,11 @@
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color:red;
+    color:#fff;
   }
   
   #hero p {
-    color: red;
+    color: #fff;
     margin: 15px 0 0 0;
     font-size: 26px;
     font-family: "Poppins", sans-serif;

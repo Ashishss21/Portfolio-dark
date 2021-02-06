@@ -13,11 +13,11 @@ class First extends Component{
                     <nav className="nav-menu">
                         <ul>
                             <li className="active"><a href="#hero"><i className="fa fa-home"></i> <span>Home</span></a></li>
-                            <li><a href="#about"><i className="fa fa-user-o"></i> <span>About</span></a></li>
-                            <li><a href="#resume"><i className="fa fa-file-o"></i> <span>Resume</span></a></li>
-                            <li><a href="#portfolio"><i className="fa fa-bookmark-o"></i> <span>Portfolio</span></a></li>
-                            <li><a href="#services"><i className="fa fa-server"></i> <span>Services</span></a></li>
-                            <li><a href="/footer"><i className="fa fa-envelope"></i> <span>Contact</span></a></li>
+                            <li><a href=""><i className="fa fa-user-o"></i> <span>About</span></a></li>
+                            <li><a href=""><i className="fa fa-file-o"></i> <span>Resume</span></a></li>
+                            <li><a href=""><i className="fa fa-bookmark-o"></i> <span>Portfolio</span></a></li>
+                            <li><a href=""><i className="fa fa-server"></i> <span>Services</span></a></li>
+                            <li><a href=""><i className="fa fa-envelope"></i> <span>Contact</span></a></li>
                         </ul>
                     </nav>
                 </header>
@@ -39,11 +39,11 @@ class First extends Component{
                             />
                         </p>
                         <div class="social-links">
-                            <a href="#" className="twitter"><i className="fa fa-twitter"></i></a>
-                            <a href="#" className="facebook"><i className="fa fa-facebook"></i></a>
-                            <a href="#" className="instagram"><i className="fa fa-instagram"></i></a>
-                            <a href="#" className="google-plus"><i className="fa fa-skype"></i></a>
-                            <a href="#" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                            <a href="" className="twitter"><i className="fa fa-twitter"></i></a>
+                            <a href="" className="facebook"><i className="fa fa-facebook"></i></a>
+                            <a href="" className="instagram"><i className="fa fa-instagram"></i></a>
+                            <a href="" className="google-plus"><i className="fa fa-skype"></i></a>
+                            <a href="" className="linkedin"><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </section>

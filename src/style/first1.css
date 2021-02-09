@@ -7,7 +7,7 @@
     height: 100vh;
     background: url(../Assests/image3.png);
     background-size: cover;
-    position: absolute;
+    position: relative;
   }
   
   @media (min-width: 992px) {
@@ -19,7 +19,7 @@
   #hero:before {
     content: "";
     /*background: rgba(255, 255, 255, 0.8);
-    */position: absolute;
+    */position: relative;
     bottom: 0;
     top: 0;
     left: 0;

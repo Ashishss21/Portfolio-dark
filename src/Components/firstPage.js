@@ -31,7 +31,7 @@ class First extends Component{
                                 loop = {Infinity}
                                 wrapper = "b"
                                 steps = {[
-                                    'Developer',2000,
+                                    'Web Developer',2000,
                                     'Freelancer',2000,
                                     'MERN Stack Developer',2000
                                 ]}

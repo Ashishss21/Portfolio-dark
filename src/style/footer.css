@@ -3,12 +3,12 @@
 	padding: 0;
 }
 body{
-	background: #111;
+	background: #fff;
 }
 .footer h1{
 	font-family: sans-serif;
 	font-weight: normal;
-	font-weight: 15px;
+	font-size: 35px;
 	letter-spacing: 2px;
 	padding: 50px 0 50px;
 	color: #fff;

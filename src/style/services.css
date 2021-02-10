@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.contain{
+.services{
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -20,7 +20,7 @@
 	max-width: 1200px;
 	margin: 40px 0;
 }
-.contain .card{
+.contain .cardu{
 	position: relative;
 	min-width: 320px;
 	height: 440px;
@@ -31,7 +31,7 @@
 	border-radius: 15px;
 	margin: 30px;
 }
-.contain .card .box{
+.contain .cardu .boxu{
 	position: absolute;
 	top: 20px;
 	left: 20px;
@@ -46,7 +46,7 @@
 	align-items: center;
 	overflow: hidden;
 }
-.contain .card .box::before{
+.contain .cardu .boxu::before{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -55,28 +55,34 @@
 	height: 100%;
 	background: rgba(255,255,255,0.05);
 }
-.contain .card .box:hover{
+.contain .cardu .boxu:hover{
 	transform: translateY(-50px);
 	box-shadow: 0 40px 70px rgba(0,0,0,0.5);
 }
-.contain .card .box .content{
+.contain .cardu .boxu .content{
 	padding: 20px;
 	text-align: center;
 }
-.contain .card .box .content h2{
+.contain .cardu .boxu .content h2{
 	position: absolute;
 	top: -5px;
 	right: 30px;
 	font-size: 8em;
 	color: rgba(255,255,255,0.05);
 }
-.contain .card .box .content h3{
+.contain .cardu .boxu .content h3{
 	font-size: 1.8em;
-	color: rgba(255,255,255,0.5);
+	color: rgba(255, 255, 255, 0.925);
 	z-index: 1;
 	transition: 0.5s;
 }
-.contain .card .box .content a{
+.contain .cardu .boxu .content p{
+	font-size: 1em;
+	color: rgba(255, 255, 255, 0.925);
+	z-index: 1;
+	transition: 0.5s;
+}
+.contain .cardu .boxu .content a{
 	position: relative;
 	display: inline-block;
 	padding: 8px 20px;
@@ -88,9 +94,9 @@
 	color: #fff;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-.contain .card:nth-child(1) .box .content a{
+.contain .cardu:nth-child(1) .boxu .content a{
 	background: #2196f3;
 }
-.contain .card:nth-child(2) .box .content a{
+.contain .cardu:nth-child(2) .boxu .content a{
 	background: #e91e63;
 }

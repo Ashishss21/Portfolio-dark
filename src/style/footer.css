@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background: #e3edf7;
+	background: #111;
 }
 .footer h1{
 	font-family: sans-serif;
@@ -11,7 +11,7 @@ body{
 	font-weight: 15px;
 	letter-spacing: 2px;
 	padding: 50px 0 50px;
-	color: #555;
+	color: #fff;
 	text-align: center;
 }
 .social-media{

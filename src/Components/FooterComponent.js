@@ -15,6 +15,7 @@ class Footer extends Component{
                             <a href="#"><i className="fa fa-instagram"></i></a>
                             <a href="#"><i className="fa fa-linkedin"></i></a>
                             <a href="#"><i className="fa fa-github"></i></a>
+                            <a href="#"><i className="fa fa-discord"></i></a>
                         </div>
                     </div>
                 </div>  

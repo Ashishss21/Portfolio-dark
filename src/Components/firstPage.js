@@ -16,8 +16,8 @@ class First extends Component{
                             <li><a href="#"><i className="fa fa-user-o"></i> <span>About</span></a></li>
                             <li><a href="#"><i className="fa fa-file-o"></i> <span>Resume</span></a></li>
                             <li><a href="#"><i className="fa fa-bookmark-o"></i> <span>Portfolio</span></a></li>
-                            <li><a href="#"><i className="fa fa-server"></i> <span>Services</span></a></li>
-                            <li><a href="#"><i className="fa fa-envelope"></i> <span>Contact</span></a></li>
+                            <li><a href="/services"><i className="fa fa-server"></i> <span>Services</span></a></li>
+                            <li><a href="/footer"><i className="fa fa-envelope"></i> <span>Contact</span></a></li>
                         </ul>
                     </nav>
                 </header>
@@ -41,8 +41,8 @@ class First extends Component{
                             <a href="www.twitter.com" className="twitter"><i className="fa fa-twitter"></i></a>
                             <a href="www.facebook.com" className="facebook"><i className="fa fa-facebook"></i></a>
                             <a href="www.instagram.com" className="instagram"><i className="fa fa-instagram"></i></a>
-                            <a href="google-plus.com" className="google-plus"><i className="fa fa-skype"></i></a>
-                            <a href="linkedin.com" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                            <a href="www.google-plus.com" className="google-plus"><i className="fa fa-skype"></i></a>
+                            <a href="www.linkedin.com" className="linkedin"><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </section>

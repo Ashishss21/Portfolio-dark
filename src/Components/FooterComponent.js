@@ -18,6 +18,8 @@ class Footer extends Component{
                             <a href="#"><i className="fa fa-discord"></i></a>
                         </div>
                     </div>
+
+                    <h3>Ashish.sengar18@yahoo.com | +91 9407548510</h3>
                 </div>  
         );
     }

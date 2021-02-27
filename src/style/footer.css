@@ -14,6 +14,14 @@ body{
 	color: #fff;
 	text-align: center;
 }
+.footer h3{
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 30px 30px;
+	color: #fff;
+	text-align: center;
+}
 .hr{
 	color: #fff;
 	outline: #fff;

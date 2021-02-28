@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Main from "./Components/MainComponent";
 import Loader from './Components/loaderComponent';
-import './App.css';
+import './style/App.css';
 
 function App() {
 

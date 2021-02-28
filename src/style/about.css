@@ -1,0 +1,36 @@
+
+.slides {
+    width: 600vw;
+    height: 100vh;
+    -webkit-transition: -webkit-transform 0.8s ease;
+    transition: -webkit-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, -webkit-transform 0.8s ease;
+  }
+  .slides .slide {
+    height: 100vh;
+    width: 100vw;
+    float: left;
+    text-align: center;
+    background-size: cover;
+  }
+  .slides .slide .content {
+    overflow-y: scroll;
+    position: relative;
+    width: 70%;
+    height: 80%;
+    left: 30%;
+    top: 10%;
+    bottom: 10%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .content::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* Add a thumb */
+  .content::-webkit-scrollbar-thumb {
+      background: rgba(250, 250, 250, 0.5);
+  }
+  

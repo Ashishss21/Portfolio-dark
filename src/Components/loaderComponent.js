@@ -4,7 +4,7 @@ import '../style/loader.css';
 class Loader extends Component{
     render(){
         return(
-            <div>
+            <div className="loaderclass">
                 <div className="loader">
                     <div></div>
                     <div></div>

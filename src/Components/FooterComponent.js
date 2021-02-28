@@ -5,7 +5,6 @@ class Footer extends Component{
     render(){
         return(
                 <div className="footer">
-                    <hr className="hr"/>
                     <div className="container">
                         <h1>It's never to late to start. Let's start together</h1>
 

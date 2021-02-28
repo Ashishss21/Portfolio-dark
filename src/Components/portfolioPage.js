@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import '../style/services.css';
+import '../style/portfolio.css';
 
-class Services extends Component{
+class Port extends Component{
     render(){
         return(
-            <div id="head">    
-                <h1>Services</h1>
+            <div className="total">
+                <div id="head">    
+                <h1>Portfolio</h1>
                 <div className="services">
                     <div className="contain">
                         <div className="cardu">
@@ -33,8 +34,9 @@ class Services extends Component{
                     </div>
                 </div>
             </div>
+            </div>
         );
     }
-}
+} 
 
-export default Services;
+export default Port;                            

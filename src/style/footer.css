@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+.footer{
+	background: #111;
+	height: 100vh;
+}
 body{
 	background: #111;
 }
@@ -21,11 +25,6 @@ body{
 	margin: 30px 30px;
 	color: #fff;
 	text-align: center;
-}
-.hr{
-	color: #fff;
-	outline: #fff;
-	width: 3px;
 }
 .social-media{
 	display: flex;

@@ -1,40 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../style/services.css';
 
-class Services extends Component{
-    render(){
-        return(
-            <div id="head">    
-                <h1>Services</h1>
-                <div className="services">
-                    <div className="contain">
-                        <div className="cardu">
-                            <div className="boxu">
-                                <div className="content">
-                                    <h2>01</h2>
-                                    <h3>card One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="/">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cardu">
-                            <div className="boxu">
-                                <div className="content">
-                                    <h2>02</h2>
-                                    <h3>card Two</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="/">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+const Services = (props) => {
+    return(
+        <div className="services">
+                <h1 className="h1">Services</h1>    
+                <div className="cen">
+                    <div className="service">
+                        <i className="fab fa-js-square"></i>
+                        <h2>MERN Stack</h2><br/>
+                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
+                    </div>
+                    <div className="service">
+                        <i className="fa fa-coffee"></i>
+                        <h2>Spring Boot</h2><br/>
+                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
+                    </div>
+                    <div className="service">
+                        <i className="fab fa-python"></i>
+                        <h2>Python</h2><br/>
+                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
                     </div>
                 </div>
+                <hr className="hr"/>
+                <div className="container">
+                    <h1 className="no-class">It's never to late to start. Let's start together</h1>
+                </div>
             </div>
-        );
-    }
+    );
 }
 
 export default Services;

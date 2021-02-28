@@ -1,42 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../style/portfolio.css';
 
-class Port extends Component{
-    render(){
-        return(
-            <div className="total">
-                <div id="head">    
-                <h1>Portfolio</h1>
-                <div className="services">
-                    <div className="contain">
-                        <div className="cardu">
-                            <div className="boxu">
-                                <div className="content">
-                                    <h2>01</h2>
-                                    <h3>card One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="/">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="cardu">
-                            <div className="boxu">
-                                <div className="content">
-                                    <h2>02</h2>
-                                    <h3>card Two</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="/">Read More</a>
-                                </div>
-                            </div>
+const Port = (props) => {
+
+    const portfolio = props.project.map((project) => {
+        return (
+            <div className="total" key={project.id}>
+                <div className="cardu">
+                    <div className="boxu">
+                        <div className="content">
+                            <h2>0{project.id}</h2>
+                            <h3>{project.name}</h3>
+                            <p>{project.description}.</p>
+                            <a href={project.link}>Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         );
-    }
-} 
+    })
+
+
+    return (
+        <div>
+            <div id="head">
+                <h1>Portfolio</h1>
+                <div className="ports">
+                    <div className="contain">
+                        {portfolio}
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
 
 export default Port;                            

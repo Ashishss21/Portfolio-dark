@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Typical from 'react-typical';
 import '../style/first.css';
+import {motion} from 'framer-motion';
 
 class Home extends Component{
     render(){
         console.log(this.props);
         return(
-            <div>
+            <motion.div
+                initial={{ opacity:0 }} animate= {{ opacity:1 }} exit={{ opacity:0 }} >
                 <section id="hero" className="d-flex flex-column justify-content-center">
                     <div className="container" data-aos="zoom-in" data-aos-delay="100">
                         <h1>Ashish Sengar</h1>
@@ -32,7 +34,7 @@ class Home extends Component{
                     </div>
                 </section>
                 
-            </div>
+            </motion.div>
         );
     }
 }

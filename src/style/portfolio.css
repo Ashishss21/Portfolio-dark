@@ -3,14 +3,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+#head{
+	text-align: center;
+}
 #head h1{
-	font-size: 60px;
-	text-decoration: underline;
 	color: #fff;
-	font-family: sans-serif;
-	letter-spacing: 2px;
-	display: flex;
-	margin: 20px 40px -20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 body{
 	background: #111;

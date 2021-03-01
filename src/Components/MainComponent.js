@@ -23,10 +23,10 @@ class Main extends Component{
             <Router>
                 <Sidebar/>
                 <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/services" component={Services} />
-                    <Route path="/about" component={About} />
-                    <Route path="/portfolio" component={()=> <Port project={this.state.projects}/> }/>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/services" component={Services} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/portfolio" component={()=> <Port project={this.state.projects}/> }/>
                 </Switch>
             </Router>
         );

@@ -8,7 +8,7 @@ class Footer extends Component{
                     <div className="container">
                         <h1>It's never to late to start. Let's start together</h1>
 
-                        <div class="social-media">
+                        <div className="social-media">
                             <a href="#"><i className="fa fa-facebook"></i></a>
                             <a href="#"><i className="fa fa-whatsapp"></i></a>
                             <a href="#"><i className="fa fa-instagram"></i></a>

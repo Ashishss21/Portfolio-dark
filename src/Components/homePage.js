@@ -23,10 +23,10 @@ class Home extends Component{
                         </p>
                         <div class="social-links">
                             <a href="www.twitter.com" className="twitter"><i className="fa fa-twitter"></i></a>
-                            <a href="www.facebook.com" className="facebook"><i className="fa fa-facebook"></i></a>
+                            <a href="www.github.com/AshishKumarSinghSengar"  target="_blank" rel="noopener noreferrer" className="github" target="_blank"><i className="fa fa-github"></i></a>
                             <a href="www.instagram.com" className="instagram"><i className="fa fa-instagram"></i></a>
                             <a href="www.google-plus.com" className="google-plus"><i className="fa fa-skype"></i></a>
-                            <a href="www.linkedin.com" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                            <a href="http://www.linkedin.com/in/" className="linkedin"><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </section>

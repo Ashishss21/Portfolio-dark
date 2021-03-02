@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/portfolio.css';
+import {Link} from 'react-router-dom';
 
 const Port = (props) => {
 
@@ -10,9 +11,9 @@ const Port = (props) => {
                     <div className="boxu">
                         <div className="content">
                             <h2>0{project.id}</h2>
-                            <h3>{project.name}</h3>
+                            <h3>{project.heading}</h3>
                             <p>{project.description}.</p>
-                            <a href={project.link}>Read More</a>
+                            <Link onClick={()=>window.open(project.link)}>Read More</Link>
                         </div>
                     </div>
                 </div>

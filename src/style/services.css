@@ -3,9 +3,10 @@
     padding: 0;
 }
 .services{
-    background: #111;
+    background:#111;
     text-align: center;
-    max-height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
 }
 .services .h1{
     color: #fff;

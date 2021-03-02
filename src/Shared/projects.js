@@ -4,15 +4,23 @@ export const PROJECTS = [
         name: 'Plantify React',
         image: '',
         heading: 'Plantify',
-        link: '', 
-        description: 'For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water. If there are leaves that have shriveled or are dry/discolored, the plant might need a little extra water than a regular routine.'
+        link: 'https://www.github.com/AshishKumarSinghSengar/Plantify-react', 
+        description: 'Plantify is a website build using ReactJs. It is a E-Commerce website for plants which provide functions of E-Commerce'
     },
     {
         id: 2,
-        name: 'Studio Template',
+        name: 'Covid-19',
         image: '',
-        heading: 'Photo Studio',
-        link: '', 
-        description: 'For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water. If there are leaves that have shriveled or are dry/discolored, the plant might need a little extra water than a regular routine.'
+        heading: 'Covid-19 Tracker App',
+        link: 'https://www.github.com/AshishKumarSinghSengar/CovidTracker-boot', 
+        description: 'Covid tracker is a website build using Spring Boot'
+    },
+    {
+        id: 3,
+        name: 'Online Examination System',
+        image: '',
+        heading: 'Examination System',
+        link: 'https://www.github.com/AshishKumarSinghSengar/Online-Quiz-Application', 
+        description: 'Online Examination System is an website build using html-css-php-JavaScript. It is a Group Project developed during 2020 internship.'
     }
 ]

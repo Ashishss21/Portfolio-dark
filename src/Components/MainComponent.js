@@ -41,9 +41,6 @@ class Main extends Component {
         }
 
         const pageTransition = {
-            /*transition: "linear",
-            type:`spring`,
-            stiffness:150*/
             type:"tween",
             ease:"anticipate",
             duration:1

@@ -9,22 +9,22 @@ const Services = (props) => {
                     <div className="service">
                         <i className="fab fa-js-square"></i>
                         <h2>MERN Stack</h2><br/>
-                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
+                        <p>JAVASCRIPT</p>
                     </div>
                     <div className="service">
                         <i className="fab fa-java"></i>
                         <h2>Spring Boot</h2><br/>
-                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
+                        <p>JAVA</p>
                     </div>
                     <div className="service">
                         <i className="fab fa-python"></i>
-                        <h2>Python</h2><br/>
-                        <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
+                        <h2>Pandas</h2><br/>
+                        <p>PYTHON</p>
                     </div>
                 </div>
                 <hr className="hr"/>
                 <div className="container">
-                    <h1 className="no-class">It's never to late to start. Let's start together</h1>
+                    <h1 className="no-class">It's never too late to start. Let's start together</h1>
                 </div>
             </div>
     );

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Typical from 'react-typical';
 import '../style/first.css';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 class Home extends Component{
     render(){
@@ -25,11 +26,11 @@ class Home extends Component{
                             />
                         </p>
                         <div className="social-links">
-                            <a href="www.twitter.com" className="twitter"><i className="fa fa-twitter"></i></a>
-                            <a href="https://www.github.com/AshishKumarSinghSengar"  target="_blank" className="github"><i className="fa fa-github"></i></a>
-                            <a href="https://www.instagram.com/_ashish.h" className="instagram" target="_blank"><i className="fa fa-instagram"></i></a>
-                            <a href="www.google-plus.com" className="google-plus"><i className="fa fa-skype"></i></a>
-                            <a href="https://www.linkedin.com/in/ashish-sengar-1b0b46198" className="linkedin"><i className="fa fa-linkedin"></i></a>
+                            <Link onClick={()=>window.open("https://twitter.com/AshishS42844566?s=08")} className="twitter"><i className="fa fa-twitter"></i></Link>
+                            <Link onClick={()=>window.open("https://www.github.com/AshishKumarSinghSengar")} className="github"><i className="fa fa-github"></i></Link>
+                            <Link onClick={()=>window.open("https://www.instagram.com/_ashish.h")} className="instagram"><i className="fa fa-instagram"></i></Link>
+                            <Link onClick={()=>window.open("mailto:ashish.sengar18@yahoo.com")}><i className="far fa-envelope"></i></Link>
+                            <Link onClick={()=>window.open("https://www.linkedin.com/in/ashish-sengar-1b0b46198")} className="linkedin"><i className="fa fa-linkedin"></i></Link>
                         </div>
                     </div>
                 </section>

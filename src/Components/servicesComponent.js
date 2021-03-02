@@ -12,7 +12,7 @@ const Services = (props) => {
                         <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
                     </div>
                     <div className="service">
-                        <i className="fa fa-coffee"></i>
+                        <i className="fab fa-java"></i>
                         <h2>Spring Boot</h2><br/>
                         <p>For potted plants at home, you may be unsure of how often to water them. For most plants, the golden rule is to see if the first inch or so of soil is dry. If dry, this is an indication that the plant needs water.</p>
                     </div>

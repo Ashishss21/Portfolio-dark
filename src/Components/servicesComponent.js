@@ -10,6 +10,7 @@ const Services = (props) => {
                         <i className="fab fa-js-square"></i>
                         <h2>MERN Stack</h2><br/>
                         <p>JAVASCRIPT</p>
+                        <p>I love to develope website using MERN and want to learn new projects and learn new techniques. Available as freelancer for Web Development, API Development and other MERN Projects</p>
                     </div>
                     <div className="service">
                         <i className="fab fa-java"></i>

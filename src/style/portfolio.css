@@ -115,3 +115,7 @@ body{
 .contain .cardu:nth-child(2) .boxu .content a{
 	background: #e91e63;
 }
+.cardu .boxu .content img{
+	height: 100px;
+	width: 200px;
+}

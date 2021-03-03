@@ -16,11 +16,13 @@ const Services = (props) => {
                         <i className="fab fa-java"></i>
                         <h2>Spring Boot</h2><br/>
                         <p>JAVA</p>
+                        <p>Spring beginner. Use Spring to build website(front-end/back-end). JavaScript is always my first choice but i want to learn more skills and Technologies. Always Open to work with spring/Spring Boot</p>
                     </div>
                     <div className="service">
                         <i className="fab fa-python"></i>
                         <h2>Pandas</h2><br/>
                         <p>PYTHON</p>
+                        <p>Total beginner in Pandas/Python want to earn new skills and technologies. Open to work or learn in projects</p>
                     </div>
                 </div>
                 <hr className="hr"/>

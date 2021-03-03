@@ -14,7 +14,7 @@ class About extends Component {
                                         <div className="row">
                                             <div className="col-sm-6 col-md-5">
                                                 <div className="about-img">
-                                                    <img src="../Assets/profile.png" className="img-fluid rounded b-shadow-a" alt="Profile Image"/>
+                                                    <img src="/images/profile.png" className="img-fluid rounded b-shadow-a" alt="Ashish Sengar"/>
                       </div>
                                                 </div>
                                                 <div className="col-sm-6 col-md-7">

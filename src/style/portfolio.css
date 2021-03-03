@@ -118,4 +118,10 @@ body{
 .cardu .boxu .content img{
 	height: 100px;
 	width: 200px;
+	margin: 10px 20px;
+	border-radius: 10px;
+}
+.contain .cardu .boxu .content a:hover{
+	background: #e91e63;
+	transition: 0.4s;
 }

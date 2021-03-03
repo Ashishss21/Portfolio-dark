@@ -15,7 +15,7 @@ class About extends Component {
                                             <div className="col-sm-6 col-md-5">
                                                 <div className="about-img">
                                                     <img src="/images/profile.png" className="img-fluid rounded b-shadow-a" alt="Ashish Sengar"/>
-                      </div>
+                                                </div>
                                                 </div>
                                                 <div className="col-sm-6 col-md-7">
                                                     <div className="about-info">
@@ -26,7 +26,6 @@ class About extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            
                                         </div>
                                         <div className="col-md-6">
                                             <div className="about-me pt-4 pt-md-0">
@@ -34,18 +33,17 @@ class About extends Component {
                                                     <h5 className="title-left">About me</h5>
                                                 </div><br/>
                                                 <p className="lead">
-                                                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                                    imperdiet et, porttitor
-                                                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                                    porttitor accumsan tincidunt.</p>
+                                                    Hello, Welcome to my website, My name is Ashish Sengar and I am MERN Stack Developer. I am Currently 
+                                                    a 2nd year student at Symbiosis University Of Applied Sciences, Indore.
+                                                </p>
                                                 <p className="lead">
-                                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                                    porttitor volutpat. Vestibulum
-                                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.</p>
+                                                    I am passionate about Web Development and would like to learn and work with new Projects to grow and learn new things.
+                                                    I am a fresher looking for internships and also availaible for freelancing projects    
+                                                </p>
                                                 <p className="lead">
-                                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                                    Nulla porttitor accumsan
-                                                    tincidunt.</p>
+                                                    I am hard working and have good knowledge of new trends, technologies and tools in Computer Science.
+                                                    I hope to contribute and develop effective, productive and new plans 
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

@@ -60,19 +60,19 @@
   }
   
   #hero .social-links .instagram:hover {
-    color: orangered;
+    color: #E1306C;
   }
   #hero .social-links .linkedin:hover {
-    color: blue;
+    color: #9ceeff;
   }
   #hero .social-links .twitter:hover{
-    color: blue;
+    color:  #1DA1F2;
   }
   #hero .social-links .github:hover{
-    color: red;
+    color: #fff;
   }
   #hero .social-links .email:hover{
-    color: greenyellow;
+    color: #BB001B;
   }
 
   @media (max-width: 992px) {

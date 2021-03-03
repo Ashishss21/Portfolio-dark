@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/services.css';
-
+ 
 const Services = (props) => {
     return(
         <div className="services">
@@ -28,6 +28,7 @@ const Services = (props) => {
                 <hr className="hr"/>
                 <div className="container">
                     <h1 className="no-class">It's never too late to start. Let's start together</h1>
+                    <br/>
                 </div>
             </div>
     );

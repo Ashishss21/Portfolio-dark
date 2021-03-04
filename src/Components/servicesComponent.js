@@ -16,7 +16,7 @@ const Services = (props) => {
                         <i className="fab fa-java"></i>
                         <h2>Spring Boot</h2><br/>
                         <p>JAVA</p>
-                        <p>I'm a beginner in Spring. I used Spring Boot to build a fully functional and dynamic website. However, Javascript is my first preference but I also want to gain some experience in Spring. So I'm always open to work in it.</p>
+                        <p>I'm a beginner in Spring. I used Spring Boot to build a fully functional and dynamic website. However, Javascript is my first preference but I also want to gain some experience in it. So I'm always open to work in it.</p>
                     </div>
                     <div className="service">
                         <i className="fab fa-python"></i>

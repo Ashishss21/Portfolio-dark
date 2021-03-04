@@ -38,11 +38,11 @@ class About extends Component {
                                                 </p>
                                                 <p className="lead">
                                                     I am passionate about Web Development and would like to learn and work with new Projects to grow and learn new things.
-                                                    I am a fresher looking for internships and also availaible for freelancing projects    
+                                                    I am a fresher looking for internships and also availaible for freelancing projects.    
                                                 </p>
                                                 <p className="lead">
                                                     I am hard working and have good knowledge of new trends, technologies and tools in Computer Science.
-                                                    I hope to contribute and develop effective, productive and new plans 
+                                                    I hope to contribute and develop effective, productive and new plans. 
                                                 </p>
                                             </div>
                                         </div>

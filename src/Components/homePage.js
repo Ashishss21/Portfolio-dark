@@ -27,7 +27,7 @@ class Home extends Component{
                         </p>
                         <div className="social-links">
                             <Link onClick={()=>window.open("https://twitter.com/AshishS42844566?s=08")} className="twitter"><i className="fa fa-twitter"></i></Link>
-                            <Link onClick={()=>window.open("https://www.github.com/AshishKumarSinghSengar")} className="github"><i className="fa fa-github"></i></Link>
+                            <Link onClick={()=>window.open("https://www.github.com/Ashishss21")} className="github"><i className="fa fa-github"></i></Link>
                             <Link onClick={()=>window.open("https://www.instagram.com/_ashish.h")} className="instagram"><i className="fa fa-instagram"></i></Link>
                             <Link onClick={()=>window.open("mailto:ashish.sengar18@yahoo.com")} className="email"><i className="far fa-envelope"></i></Link>
                             <Link onClick={()=>window.open("https://www.linkedin.com/in/ashish-sengar-1b0b46198")} className="linkedin"><i className="fa fa-linkedin"></i></Link>

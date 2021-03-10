@@ -18,7 +18,7 @@ export const PROJECTS = [
     {
         id: 3,
         name: 'Online Examination System',
-        image: '/images/back3.png',
+        image: '/images/back2.png',
         heading: 'Examination System',
         link: 'https://www.github.com/AshishKumarSinghSengar/Online-Quiz-Application', 
         description: 'Online Examination System is a website built using HTML-PHP-JAVASCRIPT. It is a Group Project developed during 2020 internship.'

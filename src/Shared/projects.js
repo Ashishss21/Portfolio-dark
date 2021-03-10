@@ -10,7 +10,7 @@ export const PROJECTS = [
     {
         id: 2,
         name: 'Covid-19',
-        image: '/images/back2.png',
+        image: '/images/back3.png',
         heading: 'Covid-19 Tracker App',
         link: 'https://www.github.com/AshishKumarSinghSengar/CovidTracker-boot', 
         description: 'Covid tracker is a website built using Spring Boot'

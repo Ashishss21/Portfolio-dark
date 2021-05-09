@@ -125,3 +125,7 @@ body{
 	background: #e91e63;
 	transition: 0.4s;
 }
+.image-portfolio{
+	height: 100px;
+	width: 150px;
+}

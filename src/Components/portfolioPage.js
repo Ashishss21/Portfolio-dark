@@ -12,7 +12,7 @@ const Port = (props) => {
                         <div className="content">
                             <h2>0{project.id}</h2>
                             <h3>{project.heading}</h3>
-                            <img src={project.image} alt="Project Description"></img>
+                            <img src={project.image} alt="Project Description" className="image-portfolio"></img>
                             <p>{project.description}.</p>
                             <Link onClick={()=>window.open(project.link)}>Read More</Link>
                         </div>

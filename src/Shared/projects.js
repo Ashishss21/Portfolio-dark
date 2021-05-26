@@ -29,6 +29,6 @@ export const PROJECTS = [
         image: '/images/back4.png',
         heading: 'Online Chat-App',
         link: 'https://chatapp-sample.netlify.app/', 
-        description: 'Online chat application'
+        description: 'Online chat application build using ReactJs'
     }
 ]
